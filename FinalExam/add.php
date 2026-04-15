@@ -19,7 +19,7 @@ require "includes/header.php";
 
                 <!-- submit and back to home button -->
                 <br>
-                <button type="submit">Add Member</button>
+                <button type="submit">Add Photo</button>
                 <a href="index.php">Back</a>
             </form>
 

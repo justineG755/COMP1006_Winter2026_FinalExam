@@ -1,7 +1,6 @@
 <!-- displays a message when a user tries to accesss a protected page while not logged in-->
  <?php
-require "includes/connect.php";
-require "includes/auth.php";
+require "includes/header.php";
 ?>
 
 <body>
