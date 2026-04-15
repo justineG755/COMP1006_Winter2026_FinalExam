@@ -3,6 +3,8 @@
 
 <?php 
 require "includes/connect.php";
+require "includes/auth.php";
+
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     die('Invalid request');

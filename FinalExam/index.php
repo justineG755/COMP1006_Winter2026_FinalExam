@@ -1,5 +1,7 @@
 <?php
 require "includes/connect.php";
+require "includes/auth.php";
+
 
 
 // create query for all member info sorted by id number

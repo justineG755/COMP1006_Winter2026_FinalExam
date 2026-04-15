@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // check if username or email already exists
     if (empty($errors)) {
-        $stmt = $pdo->prepare("SELECT * FROM users WHERE username = :username OR email = :email");
+        $stmt = $pdo->prepare("SELECT * FROM users1 WHERE username = :username OR email = :email");
         $stmt->execute([
             ':username' => $username,
             ':email' => $email
@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($errors)) {
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-        $stmt = $pdo->prepare("INSERT INTO users (username, email, password) VALUES (:username, :email, :password)");
+        $stmt = $pdo->prepare("INSERT INTO users1 (username, email, password) VALUES (:username, :email, :password)");
         $stmt->execute([
             ':username' => $username,
             ':email' => $email,

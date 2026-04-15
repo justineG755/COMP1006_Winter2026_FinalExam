@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     else {
         //SQL query to find a user by username or email
         $sql = "SELECT id, username, email, password
-                FROM users
+                FROM users1
                 WHERE username = :login OR email = :login
                 LIMIT 1";
 

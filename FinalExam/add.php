@@ -1,5 +1,7 @@
 <!-- ADD-->
-
+<?php 
+require "includes/auth.php";
+?>
             <h2 >ADD IMAGE</h2>
             <!-- form submits users input to process.php for validation and to add to table -->
             <form action="process.php" method="post" enctype="multipart/form-data">
