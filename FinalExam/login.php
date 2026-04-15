@@ -4,6 +4,7 @@ session_start();
 
 //connects to database 
 require "includes/connect.php";
+require "includes/header.php";
 
 $error = '';
 

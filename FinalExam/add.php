@@ -1,6 +1,7 @@
 <!-- ADD-->
 <?php 
 require "includes/auth.php";
+require "includes/header.php";
 ?>
             <h2 >ADD IMAGE</h2>
             <!-- form submits users input to process.php for validation and to add to table -->

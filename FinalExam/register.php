@@ -1,5 +1,6 @@
 <?php
 require "includes/connect.php";
+require "includes/header.php";
 
 // set up variables
 $errors = [];
